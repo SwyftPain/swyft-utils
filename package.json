@@ -1,0 +1,26 @@
+{
+  "name": "swyft-utils",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && npm link",
+    "start": "node dist/index.js"
+  },
+  "bin": {
+    "swyft": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4",
+    "sharp": "^0.33.5",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/yargs": "^17.0.33",
+    "typescript": "^5.6.2"
+  }
+}
