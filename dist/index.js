@@ -90,7 +90,7 @@ const processImages = (options) => __awaiter(void 0, void 0, void 0, function* (
 });
 (0, yargs_1.default)((0, helpers_1.hideBin)(process.argv))
     .usage("Usage: swyft <command> [options]")
-    .version("1.0.4")
+    .version("1.0.5")
     .command("resize", "Resize images in batch", (yargs) => {
     yargs
         .option("input", {
