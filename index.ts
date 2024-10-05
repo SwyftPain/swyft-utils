@@ -116,7 +116,7 @@ const processImages = async (options: ProcessOptions) => {
 
 yargs(hideBin(process.argv))
   .usage("Usage: swyft <command> [options]")
-  .version("1.0.2")
+  .version("1.0.3")
   .command(
     "resize",
     "Resize images in batch",

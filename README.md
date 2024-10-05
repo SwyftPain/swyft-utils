@@ -67,4 +67,4 @@ swyft resize -i ./images/input -o ./images/output -w 300 -h 200 -y true
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/SwyftPain/swyft-utils/blob/main/LICENSE) file for details.
