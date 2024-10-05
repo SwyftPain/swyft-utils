@@ -1,7 +1,14 @@
 {
   "name": "swyft-utils",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Random utilities",
+  "repository": {
+    "url": "https://github.com/SwyftPain/swyft-utils"
+  },
+  "contributors": ["SwyftPain"],
+  "funding": ["https://paypal.me/mrjohnnyjo"],
+  "homepage": "https://github.com/SwyftPain/swyft-utils",
+  "readme": "./README.md",
   "main": "index.js",
   "scripts": {
     "build": "tsc && npm link",
@@ -11,8 +18,8 @@
     "swyft": "./dist/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "SwyftPain",
+  "license": "MIT",
   "dependencies": {
     "chalk": "4",
     "sharp": "^0.33.5",
